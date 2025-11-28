@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Desafio da AI</title>
+  </head>
+  <body>
+    <h1>EasyLiga - Criar Partidas</h1>
+    <form>
+      <label for="inputCasa">Selecione um time</label>
+      <input
+        type="text"
+        name="home"
+        id="inputCasa"
+        placeholder="Digite o nome do time mandante"
+      />
+      <label for="inputFora">Selecione o Adversário</label>
+      <input
+        type="text"
+        name="away"
+        id="inputFora"
+        placeholder="Digite o nome do time visitante"
+      />
+      <button type="submit" id="criarPartida">Gerar Partida</button>
+    </form>
+    <div id="container"></div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
